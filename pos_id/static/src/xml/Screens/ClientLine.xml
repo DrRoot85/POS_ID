@@ -2,7 +2,7 @@
 <templates id="template" xml:space="preserve">
 
 
-    <t t-name="ClientLine" t-inherit="point_of_sale.ClientLine" t-inherit-mode="extension" owl="1">
+    <t t-name="ClientLineNew" t-inherit="point_of_sale.ClientLine" t-inherit-mode="extension" owl="1">
         <xpath expr="//tr//td" position="replace">
 
              <td>
